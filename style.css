@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    color: #333;
+}
+
+/* BARRA NAV */
+
+.nav-bar{
+    max-width: 1920px;
+    background-color: #FF6900;
+    height: 70px;
+}
+
+.container{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+}
+
+.left-side{
+    max-width: 200px;
+}
+
+.main-menu{
+    /* max-width: 1400px; */
+    height: 70px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 300px;
+    height: 60px;
+}
