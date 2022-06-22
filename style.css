@@ -20,7 +20,6 @@
 }
 
 .container {
-    : 100px;
     width: 1400px;
     margin: auto;
     display: flex;
@@ -82,12 +81,11 @@ a {
 }
 
 .card {
-    /* border: 1px solid blue; */
     position: relative;
 }
 
 .models {
-    display: block;
+    /* display: block; */
     width: 426px;
     height: 657px;
 }
@@ -131,9 +129,9 @@ a {
 
 .heart {
     text-align: center;
-    line-height: 50px;
-    height: 50px;
-    width: 50px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
     background-color: white;
     position: absolute;
     top: 10px;
@@ -169,8 +167,8 @@ a {
     background-color: #333;
 }
 
-.bottom {
-    width: 900px;
+.contain {
+    width: 1400px;
     height: 100px;
     margin: auto;
     display: flex;
@@ -199,3 +197,5 @@ i{
  padding-top: 30px;
  padding-right: 10px;
 }
+
+/* FINE FOOTER */
