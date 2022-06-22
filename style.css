@@ -11,6 +11,8 @@
     max-width: 1920px;
     background-color: #FF6900;
     height: 70px;
+    line-height: 70px;
+    /* position: fixed; */
 }
 
 .container{
@@ -18,7 +20,6 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    line-height: 70px;
 }
 
 .left-side{
@@ -31,7 +32,7 @@
     display: flex;
     flex-direction: row;
     gap: 5px;
-    font-size: 12px;
+    font-size: 16px;
     color: white;
 }
 
@@ -57,14 +58,15 @@ a{
 
 /* FINE BARRA NAV */
 
-.container{
+.cards{
     max-width: 1400px;
     margin: 0 auto;
+    position: relative;
 }
 
 .row{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .col{
@@ -73,8 +75,48 @@ a{
 }
 
 .card{
+    border: 2px solid blue;
+    position: relative;
 }
 
-img{
+.models{
+ display: inline-block;
+ width: 450px;
+ height: 650px;
+}
 
+.card-sale{
+    font-size: 12px;
+    background-color: red;
+    left: 0px;
+    bottom: 50px;
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+}
+
+.sost{
+    background-color: green;
+    font-size: 12px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.heart{
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 22px;
 }
