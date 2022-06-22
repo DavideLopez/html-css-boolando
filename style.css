@@ -66,7 +66,7 @@ a{
 
 .row{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .col{
@@ -75,14 +75,14 @@ a{
 }
 
 .card{
-    border: 2px solid blue;
+    /* border: 1px solid blue; */
     position: relative;
 }
 
 .models{
- display: inline-block;
- width: 450px;
- height: 650px;
+    display: block;
+    width: 426px;
+    height: 657px;
 }
 
 .card-sale{
@@ -95,6 +95,7 @@ a{
     font-size: 14px;
     font-weight: bold;
     color:white;
+    z-index: 1;
 }
 
 .sost{
@@ -104,6 +105,18 @@ a{
     position: absolute;
     bottom: 50px;
     left: 55px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.sost2{
+    background-color: green;
+    font-size: 12px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
     font-size: 14px;
     font-weight: bold;
     color: white;
@@ -119,4 +132,10 @@ a{
     top: 10px;
     right: 0;
     font-size: 22px;
+}
+
+.bottom{
+    max-width: 1920px;
+    min-height: 400px;
+    background-color: #333;
 }
