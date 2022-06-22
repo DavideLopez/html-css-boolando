@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,11 @@
 
 /* BARRA NAV */
 
-.nav-bar{
+.orange{
+    position: relative;
+}
+
+.nav-bar {
     max-width: 1920px;
     background-color: #FF6900;
     height: 70px;
@@ -15,18 +19,19 @@
     /* position: fixed; */
 }
 
-.container{
+.container {
+    : 100px;
     width: 1400px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.left-side{
+.left-side {
     max-width: 200px;
 }
 
-.main-menu{
+.main-menu {
     height: 70px;
     margin: auto;
     display: flex;
@@ -36,56 +41,58 @@
     color: white;
 }
 
-.logo{
+.logo {
     margin-top: 10px;
 }
 
-li{
+li {
     list-style: none;
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.logo{
+.logo {
     width: 300px;
     height: 60px;
 }
 
 /* FINE BARRA NAV */
 
-.cards{
+.cards {
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
+    padding-top: 70px;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.col{
+.col {
     width: calc(100% / 3);
     padding: 20px;
 }
 
-.card{
+.card {
     /* border: 1px solid blue; */
     position: relative;
 }
 
-.models{
+.models {
     display: block;
     width: 426px;
     height: 657px;
 }
 
-.card-sale{
+.card-sale {
     font-size: 12px;
     background-color: red;
     left: 0px;
@@ -94,11 +101,11 @@ a{
     padding: 5px 10px;
     font-size: 14px;
     font-weight: bold;
-    color:white;
+    color: white;
     z-index: 1;
 }
 
-.sost{
+.sost {
     background-color: green;
     font-size: 12px;
     padding: 5px 10px;
@@ -110,7 +117,7 @@ a{
     color: white;
 }
 
-.sost2{
+.sost2 {
     background-color: green;
     font-size: 12px;
     padding: 5px 10px;
@@ -122,7 +129,7 @@ a{
     color: white;
 }
 
-.heart{
+.heart {
     text-align: center;
     line-height: 50px;
     height: 50px;
@@ -134,8 +141,61 @@ a{
     font-size: 22px;
 }
 
-.bottom{
+.marca{
+    color: black;
+}
+
+.price-before{
+    text-decoration: line-through;
+    color: black;
+}
+
+.descr{
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.prices{
+   color: red;
+}
+
+
+/* PARTE FOOTER */
+
+.credits-social {
+    margin-top: 60px;
     max-width: 1920px;
-    min-height: 400px;
+    min-height: 150px;
     background-color: #333;
+}
+
+.bottom {
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-part {
+    color: white;
+    margin-top: 20px;
+}
+
+.right-part {
+    color: white;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+h4{
+  font-size: 12px;  
+}
+
+i{
+ padding-top: 30px;
+ padding-right: 10px;
 }
