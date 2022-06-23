@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* BARRA NAV */
 
@@ -113,6 +116,7 @@ a {
     font-size: 14px;
     font-weight: bold;
     color: white;
+    z-index: 1;
 }
 
 .sost2 {
@@ -125,6 +129,7 @@ a {
     font-size: 14px;
     font-weight: bold;
     color: white;
+    z-index: 1;
 }
 
 .heart {
@@ -137,10 +142,18 @@ a {
     top: 10px;
     right: 0;
     font-size: 22px;
+    z-index: 1;
+    user-select: none;
+    cursor: pointer;
+}
+
+.heart:hover {
+    color: red;
 }
 
 .marca{
-    color: black;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .price-before{
@@ -157,6 +170,30 @@ a {
    color: red;
 }
 
+.models{
+    width: 100%;   
+}
+
+.card::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.card:hover .hidden {
+    display: block;
+} 
+
+.hidden{
+    top: 0;
+    left: 0;
+    display: none;
+    position: absolute;
+}
 
 /* PARTE FOOTER */
 
